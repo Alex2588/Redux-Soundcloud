@@ -1,0 +1,59 @@
+div.test{
+    width: 100%;
+    margin-right: 0;
+}
+div.genre-list, div.track-list{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.list-group-item{
+    border-radius: 0 !important;
+}
+a.list-group-item:not(.active):hover{
+    background: #add8e6;
+}
+.table td{
+    vertical-align: middle !important;
+}
+.table tr:hover{
+    cursor: pointer;
+}
+img{
+    max-width: 50px;
+    height: auto;
+}
+.player{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background: #d3d3d3;
+    border: 1px solid #a9a9a9;
+    z-index: 10;
+}
+.player > audio{
+    width: 73%;
+    margin-left: 12%;
+    height: inherit;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.close-player{
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #000;
+}
+.image-wrapper{
+    width: 100%;
+    background-color: #e5e5e5;
+    min-height: 50px;
+    max-width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
